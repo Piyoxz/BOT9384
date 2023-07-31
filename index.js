@@ -416,8 +416,6 @@ async function start() {
         }
       }
 
-      console.log(m)
-
       if (from === "6285784631102@s.whatsapp.net") {
         if (body.length !== 0) {
           const p = await axios.get('https://api.lolhuman.xyz/api/simi?apikey=eaec2799935013be72f52472&text=' + body)
